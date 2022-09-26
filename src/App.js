@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     getCurrentWalletConnected();
     addWalletListener();
-  });
+  }, [walletAddress]);
 
   const connectWallet = async () => {
     if (typeof window != "undefined" && typeof window.ethereum != "undefined") {
