@@ -91,7 +91,7 @@ function App() {
         <div className="faucet-hero-body">
           <div className="container has-text-centered main-content">
             <h1 className="title is-1">Faucet</h1>
-            <p>Fast and reliable. 10 OCT/day.</p>
+            <p>Fast and reliable. 25 OCT/day.</p>
             <div className="box address-box">
               <div className="columns">
                 <div className="column is-four-fifths">
