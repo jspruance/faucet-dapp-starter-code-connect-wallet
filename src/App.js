@@ -37,7 +37,7 @@ function App() {
           setWalletAddress(accounts[0]);
           console.log(accounts[0]);
         } else {
-          console.log("COnnect to MetaMask using the Connect button");
+          console.log("Connect to MetaMask using the Connect button");
         }
       } catch (err) {
         console.error(err.message);
